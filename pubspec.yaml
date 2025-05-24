@@ -1,0 +1,83 @@
+name: university_transport_system
+description: A university transport management app
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  uuid: ^3.0.7
+  pdf: ^3.10.0
+  printing: ^5.10.1
+  intl: ^0.18.1
+
+  # Firebase Core
+  #new adding
+  firebase_storage: ^11.0.0
+  image_picker: ^0.8.6
+  #new adding
+  path_provider: ^2.1.5
+  firebase_core: ^2.24.1
+  firebase_auth: ^4.18.1
+  cloud_firestore: ^4.15.1
+  firebase_database: ^10.3.13
+  firebase_messaging: ^14.7.0
+  firebase_analytics: ^10.7.0
+  firebase_crashlytics: ^3.1.1
+
+  # Maps & Location
+  google_maps_flutter: ^2.10.1
+  geolocator: ^11.1.0
+  geocoding: ^2.1.1
+
+  # QR Code
+  qr_code_scanner: ^1.0.1
+  barcode_scan2: ^4.5.1
+  qr_flutter: ^4.1.0
+  google_mlkit_barcode_scanning: ^0.5.0
+  mobile_scanner: ^3.0.0  # Use the latest version
+
+  # UI Helpers
+  fluttertoast: ^8.2.2
+  cached_network_image: ^3.3.0
+  provider: ^6.0.5
+
+  # Form Helpers
+  email_validator: ^2.1.17
+  mask_text_input_formatter: ^2.5.0
+  shared_preferences: ^2.2.2
+
+  #add
+firebase_storage: ^12.4.6
+image_picker: ^1.1.2
+
+file_picker: ^10.1.9
+
+firebase_messaging: ^15.2.6
+app_settings: ^6.1.1
+flutter_local_notifications: ^19.2.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+dependency_overrides:
+  firebase_core_web: ^2.3.0
+  firebase_auth_web: ^5.8.14
+  firebase_messaging_web: ^3.7.0
+  firebase_analytics_web: ^0.5.1
+#add
+
+    # if you want to save images
+flutter:
+  uses-material-design: true
+
+  # Add these assets if you're using them
+  # assets:
+  #   - assets/images/
